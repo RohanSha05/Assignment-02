@@ -1,0 +1,93 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+/*============================ TOP SECTION START ======================= */
+.nav-bar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 65px;
+}
+.nav-items{
+    margin-left: 140px;
+}
+
+.nav-items, .nav-item, a{
+    text-decoration: none;
+    color: black;
+    }
+    .nav-item{
+        padding-right: 35px;
+        font-size: 20px;
+    }
+.header{
+    padding-left:125px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.top-section{
+    display: flex;
+    padding: 0 115px 3px 115px;
+    
+}
+.top-left{
+    margin: 10px 10px 10px 10px;
+    padding: 70px 58px 0px 3px;
+}
+.head-title{
+    margin-bottom: 0;
+    font-size: 52px;
+    font-weight: 700;
+}
+.about-influ{
+    padding: 1px 149px 10px 1px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.pre-book{
+    color: white;
+    background-color: #000000;;
+    border: 0;
+    border-radius: 40px;
+    padding: 10px 30px;
+}
+.top-right{
+    margin: 54px 25px 1px 32px;
+}
+.top-right img{
+    width: 450px;
+    height: 410px;
+}
+/*======================== TOP SECTION END ============================== */
+
+/* ========================================SECTION-LOGOS START============================================= */
+.logos{
+    width: 88%;
+}
+.logo{
+    padding:21px 1px 10px 235px;
+}
+.logo img{
+    padding: 10px 30px 10px 30px;
+}
+hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0 0 0 / 32%), rgba(0, 0, 0, 0));
+}
+/* ===========================================SECTION-LOGOS END ============================================ */
+
+.collection{
+    text-align: center;
+
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    padding: 70px 115px 7px 140px;
+}
+.product{
+    border: 1px solid;
+    margin: 10px 100px 10px 10px;
+    padding: 15px 12px;
+}
