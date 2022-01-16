@@ -25,6 +25,7 @@ body{
     font-weight: 700;
 }
 .top-section{
+    
     display: flex;
     padding: 0 115px 3px 115px;
     
@@ -76,18 +77,128 @@ hr{
 }
 /* ===========================================SECTION-LOGOS END ============================================ */
 
+/*========================================= SECTION-PRODUCTS STARTS ========================================*/
+.middle-section{
+    width: 1047px;
+    /* height: 1662px; */
+    margin-left: 260px;
+   
+    display: grid;
+    
+
+
+}
 .collection{
     text-align: center;
+    font-size: 35px;
+margin-bottom: 50px;
+margin-top: 50px;
+color: #535050;
 
 }
 .products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    Width:329px; 
+    Height:476px; 
 
-    padding: 70px 115px 7px 140px;
 }
 .product{
-    border: 1px solid;
-    margin: 10px 100px 10px 10px;
-    padding: 15px 12px;
+    border: 0 solid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
 }
+.item-name{
+    width: 40%;
+    margin-bottom: -14px;
+    font-size: 26px;
+}
+.see-more{
+    width: 100%;
+    margin-left: 50px;
+}
+.button{
+        text-align: right;
+    margin-top: 1120px;
+    margin-left: 1050px;
+    width: 110px;
+    }
+    .see-more{
+        border: 0;
+        font-size: 18px;
+    }
+
+/* ===========================================SECTION-PRODUCTS END =================================== */
+/*============================================ LAST SECTION START =========================*/
+.last-sec{
+    display: flex;
+    margin-top: 60px;
+    padding-left: 250px;
+    margin-bottom: 40px;
+}
+.final-text{
+    width: 40% ;
+    margin-left: 30px;
+}
+.final-img img{
+    width: 440px;
+    height: 270px;
+}
+.join-now{
+    margin-left: 410px;
+    margin-top: 50px;
+}
+.button-2{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    width: 100px;
+}
+
+/*======================== FOOTER ================ */
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+.footer-text{
+    color: white;
+}
+.f-logo{
+    padding-left: 20px;
+}
+
+
+/*========================================== MEDIA QUERY==================================== */
+@media only screen and (max-width:688px) {
+
+    .top-section{
+        width: 100%;
+        display: grid;
+   
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .middle-section ,.products{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        }
+
+
+
+    /*===========================tablet-devices======================== */
+    @media only screen and (min-width:689px) and (max-width:992px) {
+        
+        .middle-section , .products{
+            width: 100%;
+            grid-template-columns: repeat(1, 1fr);
+            
+        }}
+        
+        .middle-section{
+            width: 100%;
+            height: 2700px;
+        }
+ 
+    }
